@@ -1,0 +1,116 @@
+.card-container {
+  display: flex;
+}
+
+.calculator-card {
+  width: 25vw;
+  font-family: Open Sans;
+  border-radius: 10px;
+}
+
+.calc-title {
+  font-size: 16px;
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+}
+
+.card-content {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.text-label {
+  margin-top: 0.5rem;
+}
+
+.right-content {
+  margin-top: 1rem;
+}
+
+.text-rupees {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.subtexts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtexts {
+  font-size: 10px;
+  color: grey;
+}
+
+.slider {
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.existing-loan-contents {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.existing-loan-contents mat-slide-toggle {
+  margin-top: 1rem;
+}
+
+/* :host ::ng-deep .slider .mat-slider-thumb {
+  background-color: #ff3967;
+} */
+
+:host ::ng-deep mat-select .mat-select-value,
+:host ::ng-deep .mat-input-element {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Loan Card Style */
+.loan-card {
+  font-family: Open Sans;
+  margin-top: 6rem;
+  background-color: #9f62c9;
+  height: 60vh;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 0.5rem;
+  text-align: center;
+  color: white;
+  width: 12vw;
+}
+
+.btn {
+  border-radius: 10px;
+  color: #663399;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 0px 20px #00000033;
+  border: none;
+  border-radius: 24px;
+  /* font-weight: bold; */
+  margin-top: 2rem;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.loan-card-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0.3rem;
+}

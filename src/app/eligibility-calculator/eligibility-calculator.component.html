@@ -1,0 +1,102 @@
+<div class="card-container">
+  <mat-card class="calculator-card">
+    <mat-card-title class="calc-title">Eligibilty Calculator</mat-card-title>
+    <mat-card-content class="card-content">
+      <div style="margin-bottom: 1.5rem">
+        <div class="text-label">
+          <label>Monthly Income</label>
+        </div>
+        <div class="text-label">
+          <label class="text-label text-rupees">₹ {{ incomeValue }}</label>
+        </div>
+        <div>
+          <mat-slider
+            [(ngModel)]="incomeValue"
+            class="slider"
+            tickInterval="10000"
+            min="100000"
+            max="300000"
+          ></mat-slider>
+        </div>
+        <div class="subtexts">
+          <div class="subtext">₹ 1,00,000</div>
+          <div class="subtext">₹ 3,00,000</div>
+        </div>
+      </div>
+      <div style="margin-bottom: 1rem">
+        <div class="text-label">
+          <label>Monthly Expense</label>
+        </div>
+        <div class="text-label text-rupees">
+          <label>₹ {{ monthlyExpense }}</label>
+        </div>
+        <div>
+          <mat-slider
+            [(ngModel)]="monthlyExpense"
+            class="slider"
+            tickInterval="1000"
+            min="10000"
+            max="300000"
+          ></mat-slider>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div class="text-label">
+            <label>Repayment Tenure</label>
+          </div>
+        </div>
+        <mat-form-field class="full-width">
+          <mat-select [(ngModel)]="selectedValue">
+            <mat-option *ngFor="let tenure of tenures" [value]="tenure">
+              {{ tenure }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="existing-loan-contents">
+        <div>
+          <div class="text-label">
+            <label>Do you have any existing loans?</label>
+          </div>
+        </div>
+        <mat-slide-toggle></mat-slide-toggle>
+      </div>
+
+      <div style="margin-top: 1.5rem">
+        <div>
+          <div class="text-label">
+            <label>EMI of existing loan (optional)</label>
+          </div>
+        </div>
+
+        <mat-form-field class="full-width">
+          <span class="text-rupees" matPrefix>₹ &nbsp;</span>
+          <input matInput value="15,000" />
+        </mat-form-field>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="loan-card">
+    <mat-card-content>
+      <div style="margin-top: 4rem">
+        <div class="text-label">
+          <label>Monthly Expense</label>
+        </div>
+        <div class="loan-card-text">₹ 1,00,000</div>
+      </div>
+
+      <div style="margin-top: 2rem">
+        <div class="text-label">
+          <label>Your EMI will be</label>
+        </div>
+        <div class="loan-card-text">₹ 15,000</div>
+      </div>
+
+      <div>
+        <button class="btn">GET MONEY</button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -1,13 +1,28 @@
 .main {
-  margin: 4rem;
+  margin: 5rem 4rem 4rem 4rem;
 }
 
 .upper-container {
-  display: flex;
   overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
-/* .left-content img {
-  width: 652px;
-  height: 365px;
-} */
+.left-content-text {
+  margin-left: 3rem;
+}
+
+.left-content-text img {
+  width: 25vw;
+}
+
+.line {
+  margin-bottom: 5rem;
+  border-top: 6px solid black;
+  width: 15vw;
+  border-radius: 50px;
+}
+
+.collect-img {
+  width: 35vw;
+}
