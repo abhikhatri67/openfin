@@ -1,0 +1,66 @@
+mat-toolbar {
+  background-color: transparent;
+}
+
+.toolbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.logo-container {
+  margin-left: 3rem;
+}
+
+.logo-container img {
+  height: 75px;
+}
+
+.nav-container {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font: normal normal normal 25px/34px Open Sans;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn {
+  border-radius: 10px;
+  color: white;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0px 0px 20px #00000033;
+  border: 2px solid #663399;
+  border-radius: 24px;
+  color: #663399;
+  font-weight: bold;
+}
+
+.btn-filled {
+  background-color: #9f68e0;
+  box-shadow: 0px 0px 20px #00000033;
+  font-weight: bold;
+  color: white;
+}
+
+.btn:active,
+.btn-filled:active {
+  transform: scale(0.98);
+}
+
+.btn:focus,
+.btn-filled:focus {
+  outline: 0;
+}

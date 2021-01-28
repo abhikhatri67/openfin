@@ -1,0 +1,13 @@
+.main {
+  margin: 4rem;
+}
+
+.upper-container {
+  display: flex;
+  overflow-x: hidden;
+}
+
+/* .left-content img {
+  width: 652px;
+  height: 365px;
+} */
