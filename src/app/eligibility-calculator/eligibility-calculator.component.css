@@ -4,7 +4,7 @@
 
 .calculator-card {
   width: 25vw;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   border-radius: 10px;
 }
 
@@ -59,23 +59,21 @@
 }
 
 .existing-loan-contents mat-slide-toggle {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
-/* :host ::ng-deep .slider .mat-slider-thumb {
-  background-color: #ff3967;
-} */
+/* TODO Remove :host styling  */
 
 :host ::ng-deep mat-select .mat-select-value,
 :host ::ng-deep .mat-input-element {
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
 
 /* Loan Card Style */
 .loan-card {
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   margin-top: 6rem;
   background-color: #9f62c9;
   height: 60vh;

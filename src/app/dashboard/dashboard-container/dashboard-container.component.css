@@ -3,10 +3,12 @@
   display: flex;
   justify-content: space-between;
   margin: 4rem;
+  margin-top: 8rem;
 }
 
 .left-content-text {
-  margin-left: 3rem;
+  width: 28vw;
+  margin-left: 1.5rem;
 }
 
 .left-content-text img {
@@ -14,10 +16,14 @@
 }
 
 .line {
-  margin-bottom: 5rem;
-  border-top: 6px solid black;
+  margin-bottom: 3rem;
+  border-top: 4px solid black;
+  width: 236px;
   width: 15vw;
-  border-radius: 50px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 0.7;
+  margin-top: 0.5rem;
 }
 
 .collect-img {
@@ -25,9 +31,16 @@
 }
 
 /* Lower Section CSS */
-.lower-container {
+.lower-section {
   background-image: url("/assets/background/sol_wave_bg.svg");
   background-position: top;
+}
+
+.lower-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 92vw;
 }
 
 .cards-container {
@@ -43,7 +56,7 @@
   box-shadow: 0px 0px 30px #2321321f;
   border: 1px solid #ffffff;
   border-radius: 20px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -77,4 +90,37 @@
 .card-header-image {
   width: 90px;
   height: 90px;
+}
+
+/* Open Account Section Styling */
+.open-account-container {
+  width: 32vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.open-account-title {
+  font-family: inherit;
+  font-size: 40px;
+}
+
+.open-account-container p {
+  width: 30vw;
+  color: #777777;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.open-account-title {
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px;
+}
+
+.line3 {
+  width: 120px;
+  height: 0px;
+  background: transparent url("/assets/images/Line 3.svg") 0% 0% no-repeat
+    padding-box;
+  border: 2px solid #707070;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
