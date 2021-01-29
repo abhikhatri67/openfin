@@ -1,11 +1,8 @@
-.main {
-  margin: 5rem 4rem 4rem 4rem;
-}
-
 .upper-container {
   overflow-x: hidden;
   display: flex;
   justify-content: space-between;
+  margin: 4rem;
 }
 
 .left-content-text {
@@ -25,4 +22,59 @@
 
 .collect-img {
   width: 35vw;
+}
+
+/* Lower Section CSS */
+.lower-container {
+  background-image: url("/assets/background/sol_wave_bg.svg");
+  background-position: top;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  margin: 4rem;
+}
+
+.lower-card {
+  max-width: 400px;
+  width: 264px;
+  height: 185px;
+  box-shadow: 0px 0px 30px #2321321f;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  font-family: Open Sans;
+  margin-bottom: 1rem;
+}
+
+.lower-card:hover {
+  background: transparent url("/assets/background/Rectangle 2.svg") 0% 0%
+    no-repeat padding-box;
+  background-position: center;
+  color: white;
+}
+
+.lower-card:hover .lower-card-content p {
+  color: white;
+}
+
+.lower-card mat-card-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lower-card-content p {
+  font-size: 12px;
+  color: grey;
+}
+
+.right-cards .lower-card {
+  margin-left: 1rem;
+}
+
+.card-header-image {
+  width: 90px;
+  height: 90px;
 }
