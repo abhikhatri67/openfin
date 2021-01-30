@@ -14,6 +14,7 @@ mat-toolbar {
 
 .logo-container {
   margin-left: 3rem;
+  margin-top: 0.5rem;
 }
 
 .logo-container img {

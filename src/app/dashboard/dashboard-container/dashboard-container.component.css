@@ -1,22 +1,22 @@
 .main {
-  background-image: url("/assets/background/blob-small.svg"),
+  /* background-image: url("/assets/background/blob-small.svg"),
     url("/assets/background/circle.svg"),
     url("/assets/background/accounting_dots.svg"),
     url("/assets/background/accounting_dots.svg");
   background-position: -35% 0%, 450% -150%, 90% 42%, 23% 30%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; */
 }
 
 .upper-container {
   overflow-x: hidden;
   display: flex;
   justify-content: space-between;
-  margin: 4rem;
+  margin: 0 4rem 4rem 4rem;
 }
 
 .left-content,
 .right-content {
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 .left-content-text {

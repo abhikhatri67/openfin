@@ -12,8 +12,8 @@
         <div>
           <mat-slider
             [(ngModel)]="incomeValue"
+            color="primary"
             class="slider"
-            tickInterval="10000"
             min="100000"
             max="300000"
           ></mat-slider>
@@ -34,7 +34,7 @@
           <mat-slider
             [(ngModel)]="monthlyExpense"
             class="slider"
-            tickInterval="1000"
+            color="primary"
             min="10000"
             max="300000"
           ></mat-slider>
@@ -60,7 +60,7 @@
             <label>Do you have any existing loans?</label>
           </div>
         </div>
-        <mat-slide-toggle></mat-slide-toggle>
+        <mat-slide-toggle color="primary"></mat-slide-toggle>
       </div>
 
       <div style="margin-top: 1.5rem">
