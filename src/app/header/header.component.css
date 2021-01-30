@@ -65,7 +65,6 @@ mat-toolbar {
 .btn:focus,
 .btn-filled:focus {
   outline: 0;
-  background-color: #663399;
 }
 
 .btn:hover,
